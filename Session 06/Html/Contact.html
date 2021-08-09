@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="header name and logo">
+       <h1 style="font-size: 40px; text-align: center;">Global Boxing News and Commentary</h1>
+       <img src="../Image/logo.png" alt="Logo Picture" width="250" height="200">
+    </div>
+    <div id="list menu">
+        <ul style="background-color: brown;color: white;">
+           <li><a href="../Html/BoxingHomePage.html" style="color: white;">Home</a></li>
+           <li><a href="../Html/BoxingSchedulePage.html" style="color: white;">Boxing Schedule</a></li>
+           <li><a href="../Html/BoxingRankingsPage.html" style="color: white;">Boxing Rankings</a></li>
+           <li><a href="#" style="color: white;">Champions List</a></li>
+           <li style="color: white;">More
+               <ul>
+                   <li><a href="#" style="color: white;">Team</a></li>
+                   <li><a href="../Html/Contact.html" style="color: white;">Contact</a></li>
+               </ul>
+           </li>
+       </ul>
+    </div>
+    <div id="contact data">
+        <br>
+        <form action="" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="">Name: </label></td>
+                        <td><input type="text" name="Name"  placeholder="Enter your Name here..." value="Meysam"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Family: </label></td>
+                        <td><input type="text" name="Family" placeholder="Enter your family here..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email: </label></td>
+                        <td><input type="email" name="Email" value="meysamjamaat@gmail.com" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password: </label></td>
+                        <td><input type="Password" name="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Gender: </label></td>
+                        <td>
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                            <input type="radio" name="Gender" value="Other">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Mobile: </label></td>
+                        <td>
+                            <select name="Mobile">
+                                <option value="0910">0910</option>
+                                <option value="0911">0911</option>
+                                <option value="0912" selected>0912</option>
+                                <option value="0913">0913</option>
+                                <option value="0914">0914</option>
+                                <option value="0915">0915</option>
+                                <option value="0916">0916</option>
+                                <option value="0917">0917</option>
+                                <option value="0918">0918</option>
+                                <option value="0919">0919</option>
+                            </select>
+                            <input type="text" name="Mobile" placeholder="4754574">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"><label for="">Interests: </label></td>
+                        <td><input type="checkbox" name="Music">Music</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Book" disabled>Book</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Philosophy" checked>Philosophy</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Poker">Poker</td>
+                    </tr>
+                    <tr>
+                        <td><label for="">My Comment: </label></td>
+                        <td>
+                            <textarea name="My Comment" cols="30" rows="10" placeholder="Please enter comment...">Awesome web design...</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">SEND</button><button type="reset">RESET</button></label></td>
+                    </tr>
+                </tbody>
+            </table>
+       </form>
+    </div>
+</body>
+</html>
