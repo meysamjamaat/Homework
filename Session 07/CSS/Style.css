@@ -1,0 +1,81 @@
+.headcol{
+    background-color: #1c3652;
+}
+.logo{
+    width: 105px; height: 105px;
+}
+h1{
+    font-size: 40px;
+}
+.headsubmain{
+    font-size: 70px; color: white;
+}
+.headsub{
+    text-align: center;
+}
+.headearth{
+    color: white; background-color: #1c3652; text-align: center;
+}
+.headnav{
+    color: white;
+}
+.headnam{
+    color: #af9152;
+}
+.headmat{
+    font-size: 40px; color: #c4d2e0; font-weight: bold;
+}
+p{
+    font-size: 30px;
+}
+.submainali{
+    text-align: center;
+}
+.subali{
+    text-align: center; color: #b26200; font-size: 50px;
+}
+button{
+    background-color: #253e59; color: white; font-size: 30px;
+}
+div{
+    background-color: #eae7dd;
+}
+.mainplanesub{
+    background-color: #f4f2ed;
+}
+.footsub{
+    text-align: center;
+}
+.footcol{
+    background-color: #ecf1f7;
+}
+.footbackcol{
+    background-color: #1c3652; text-align: center; color: white;
+}
+a{
+    font-size: 30px;
+}
+li{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+}
+.col1{
+    font-size: 30px; font-weight: bold;
+}
+.col2{
+    font-size: 25px;
+}
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.theadcol{
+    font-size: 30px; font-weight: bold; background-color: #907300;
+}
+input{
+    font-size: 20px;
+}
+.maincolbac{
+    background-color: #f1f1f1;
+}
