@@ -1,0 +1,18 @@
+thead tr{
+    background-color: rgb(76, 175, 80); color: white;
+}
+tbody tr:nth-child(2n+1){
+    background-color: rgb(242, 242, 242);
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(255, 255, 255);
+}
+table{
+    border: hidden; background-color: rgb(221, 221, 221); font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    padding: 8px 300px 8px 8px ;
+}
+th{
+    text-align: left; padding: 15px 300px 15px 8px ;
+}

@@ -1,0 +1,28 @@
+.bg1 {
+    background:  rgb(153, 0, 0) center no-repeat;
+    background-size: contain; 
+    margin: 30px 5px 20px 20px; 
+    border: 15px solid rgb(170, 170, 170);
+}
+.bg2 {
+    background:  url(../Images/sm_nyc_banner.jpg) center no-repeat, #000;
+    background-size: contain; 
+    margin: 40px 5px 20px 20px; 
+    border: 15px solid rgb(170, 170, 170);
+}
+.bgl1{
+    background-image: url(../Images/featured.png);
+    background-repeat: no-repeat;
+    background-position-y:  30px;
+    background-size: 950px 210px;
+}
+.bgl2{
+    background-image: url(../Images/new.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 270px 270px;
+}
+p{
+    margin: 10px 650px;  
+    color: rgba(255, 255, 255, 0);
+}
