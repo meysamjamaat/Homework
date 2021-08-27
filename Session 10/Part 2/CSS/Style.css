@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bg-h {
+    background-color: rgb(119, 119, 119);
+    padding: 30px;
+}
+
+.bg-m1 {
+    background-color: rgb(153, 153, 153);
+    padding: 30px 20px;
+    width: 710px;
+    float: left;
+}
+
+.bg-m2 {
+    background-color: rgb(102, 102, 102);
+    padding: 20px 20px;
+    width: 250px;
+    float: left;
+}
+
+p.p1 {
+    padding-bottom: 20px;
+}
+
+.bg-f {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 8px;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}

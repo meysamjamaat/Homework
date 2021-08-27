@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(128, 128, 128);
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bg {
+    width: 240px;
+    height: 190px;
+}
+
+.bg1 {
+    background-color: rgb(255, 0, 0);
+    float: left;
+    border-top: 50px solid rgb(128, 128, 128);
+    border-bottom: 25px solid rgb(128, 128, 128);
+    border-left: 50px solid rgb(128, 128, 128);
+    border-right: 15px solid rgb(128, 128, 128);
+}
+
+.bg2 {
+    background-color: rgb(0, 0, 255);
+    float: left;
+    border-top: 50px solid rgb(128, 128, 128);
+    border-left: 35px solid rgb(128, 128, 128);
+    border-right: 25px solid rgb(128, 128, 128);
+    border-bottom: none;
+}
+
+.bg3 {
+    background-color: rgb(255, 255, 0);
+    float: left;
+    border-top: 50px solid rgb(128, 128, 128);
+    border-bottom: 25px solid rgb(128, 128, 128);
+    border-left: 25px solid rgb(128, 128, 128);
+    border-right: 35px solid rgb(128, 128, 128);
+}
+
+.bg4 {
+    background-color: rgb(255, 0, 0);
+    float: left;
+    border-top: 50px solid rgb(128, 128, 128);
+    border-bottom: 25px solid rgb(128, 128, 128);
+    border-right: 50px solid rgb(128, 128, 128);
+    border-left: 15px solid rgb(128, 128, 128);
+}
+
+.bg5 {
+    float: left;
+    clear: left;
+}
+
+.bg6 {
+    background-color: rgb(0, 0, 255);
+    float: left;
+    border-top: none;
+    border-bottom: 90px solid rgb(128, 128, 128);
+    border-left: 35px solid rgb(128, 128, 128);
+    border-right: 25px solid rgb(128, 128, 128);
+}
+
+.bg7 {
+    background-color: rgb(0, 0, 255);
+    float: left;
+    border-top: 30px solid rgb(128, 128, 128);
+    border-left: 25px solid rgb(128, 128, 128);
+    border-right: 35px solid rgb(128, 128, 128);
+    border-bottom: none;
+}
+
+.bg8 {
+    background-color: rgb(255, 255, 0);
+    float: left;
+    border-top: 30px solid rgb(128, 128, 128);
+    border-bottom: 45px solid rgb(128, 128, 128);
+    border-right: 50px solid rgb(128, 128, 128);
+    border-left: 15px solid rgb(128, 128, 128);
+
+}
+
+.bg9 {
+    height: 120px;
+    float: left;
+    clear: left;
+}
+
+.bg10 {
+    height: 120px;
+    float: left;
+}
+
+.bg11 {
+    background-color: rgb(0, 0, 255);
+    height: 120px;
+    float: left;
+    border-top: none;
+    border-bottom: 50px solid rgb(128, 128, 128);
+    border-right: 35px solid rgb(128, 128, 128);
+    border-left: 25px solid rgb(128, 128, 128);
+}
