@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    /* margin: 0; */
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+
+.headerbox {
+    background-color: rgb(59, 188, 237);
+    width: 800px;
+    height: 50px;
+    padding-top: 1px;
+}
+
+.mainbox1 {
+    background-color: rgb(232, 49, 105);
+    width: 550px;
+    height: 150px;
+    padding-top: 1px;
+}
+
+.asidebox {
+    background-color: rgb(250, 194, 74);
+    width: 250px;
+    height: 150px;
+    padding-top: 1px;
+}
+
+.mainbox2 {
+    background-color: rgb(232, 49, 105);
+    width: 550px;
+    height: 150px;
+    padding-top: 1px;
+}
+
+.navbox {
+    background-color: rgb(138, 227, 72);
+    width: 250px;
+    height: 150px;
+    padding-top: 1px;
+}
+
+.footerbox {
+    background-color: rgb(165, 109, 218);
+    width: 800px;
+    height: 90px;
+    padding-top: 1px;
+}
