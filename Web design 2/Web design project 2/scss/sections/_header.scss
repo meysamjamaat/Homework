@@ -1,0 +1,28 @@
+.header {
+    background: url(../../assets/image/Header-Image.jpg) no-repeat center/ cover;
+}
+
+.welcome-title {
+    margin-top: 20rem;
+    font-size: 2rem;
+    padding-right: 3rem;
+    max-width: 25rem;
+}
+
+.welcome-comment {
+    padding-right: 3rem;
+    max-width: 25rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(170px, 170px));
+    grid-gap: 20px;
+    margin: -6em 7em;
+}
+
+.grid-search {
+    grid-row: span 2;
+}
+

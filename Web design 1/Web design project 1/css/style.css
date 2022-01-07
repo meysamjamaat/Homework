@@ -121,7 +121,7 @@ a {
 }
 
 .main-navbar li a:hover, .main-navbar li.active a {
-    color: rgb(212, 171, 105);
+    color: rgb(209, 168, 101);
     border-bottom: 2px solid rgb(212, 171, 105);
 }
 
