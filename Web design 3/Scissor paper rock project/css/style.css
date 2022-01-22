@@ -1,0 +1,14 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+span {
+    width: 10rem;
+    height: 10rem;
+}

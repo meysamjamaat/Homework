@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Scissor paper rock project/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="../Scissor paper rock project/css/style.css">
+    <title>Scissor Paper Rock Game</title>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="selectyour mt-5 mb-5">
+            <button type="button" class="btn btnscissor">
+                <img src="../Scissor paper rock project/assets/image/scissor.jpg" alt="scissor" class="scissor" id="scissorbtn">
+            </button>
+            <button type="button" class="btn btnpaper mr-5 ml-5">
+                <img src="../Scissor paper rock project/assets/image/paper.jpg" alt="paper" class="paper" id="paperbtn">
+            </button>
+            <button type="button" class="btn btnrock">
+                <img src="../Scissor paper rock project/assets/image/rock.jpg" alt="rock" class="rock" id="rockbtn">
+            </button>
+        </div>
+        <div id="selectpc"></div>
+        <div class="score rounded bg-secondary w-50 d-inline-block text-white mt-5">
+            <div class="score mb-2 mt-2">
+                Your Score: <span id="yourscore"></span>
+            </div>
+            <div class="score mb-2">
+                PC Score: <span id="pcscore"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scissor paper rock project/js/app.js"></script>
+</body>
+</html>
